@@ -1,0 +1,8 @@
+Vito Tower:vito-tower
+Destro Tower:destro-tower
+Macbook:vito-mbp.local
+mini05:mbx-farm205-ca14769
+mini06:mbx-farm206-ca14774
+mini07:mbx-farm207-ca14757
+mini08:mbx-farm208-ca14766
+mini09:mbx-farm209-ca14735

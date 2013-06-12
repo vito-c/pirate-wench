@@ -1,0 +1,8 @@
+vt:Vito Tower:vito-tower
+dt:Destro Tower:destro-tower
+mbp:Macbook:vito-mpb.local
+m05:mbx-farm205-ca14769
+m06:mbx-farm206-ca14774
+m07:mbx-farm207-ca14757
+m08:mbx-farm208-ca14766
+m09:mbx-farm209-ca14735

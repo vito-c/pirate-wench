@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionname</key>
+	<string>vim client</string>
+	<key>actiontype</key>
+	<string>SCRIPTS</string>
+	<key>anchored</key>
+	<true/>
+	<key>category</key>
+	<string>FILTERS</string>
+	<key>daterange</key>
+	<integer>0</integer>
+	<key>disabled</key>
+	<false/>
+	<key>filetypes</key>
+	<array/>
+	<key>ignoresystemfiles</key>
+	<true/>
+	<key>keyword</key>
+	<string>v</string>
+	<key>metadatafields</key>
+	<array>
+		<dict>
+			<key>field</key>
+			<string>kMDItemDisplayName</string>
+			<key>not</key>
+			<false/>
+			<key>split</key>
+			<true/>
+			<key>value</key>
+			<string>{query}</string>
+			<key>words</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>field</key>
+			<string>kMDItemContentType</string>
+			<key>not</key>
+			<true/>
+			<key>split</key>
+			<false/>
+			<key>value</key>
+			<string>public.meta</string>
+			<key>words</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>field</key>
+			<string>kMDItemContentType</string>
+			<key>not</key>
+			<true/>
+			<key>split</key>
+			<false/>
+			<key>value</key>
+			<string>public.cs.meta</string>
+			<key>words</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>field</key>
+			<string>kMDItemContentType</string>
+			<key>not</key>
+			<true/>
+			<key>split</key>
+			<false/>
+			<key>value</key>
+			<string>public.cs~</string>
+			<key>words</key>
+			<false/>
+		</dict>
+	</array>
+	<key>scope</key>
+	<string>~/</string>
+	<key>subtitle</key>
+	<string>opens files in the current vim</string>
+	<key>title</key>
+	<string>Open Files in Vim</string>
+</dict>
+</plist>
