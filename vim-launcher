@@ -1,0 +1,13 @@
+#!/usr/local/bin/bash
+UNITY_RUNNING=$( command /usr/local/bin/vim --servername UNITY --remote-send "" && echo $? );
+
+osascript ~/.pirate-setup/pirate-wench/unitytab.scpt "$@"
+if [[ $UNITY_RUNNING ]]; then 
+	command /usr/local/bin/vim --servername UNITY --remote-silent "$@";
+fi
+#else 
+#	#command /usr/local/bin/vim  vim --servername UNITY --remote-silent $@;
+#	command /usr/local/bin/vim --servername UNITY --remote-silent "$@";
+#	echo -e "\033];UNITY\007";
+#	#echo "fail"; 
+#fi
