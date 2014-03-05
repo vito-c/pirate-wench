@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F661C6DF17EE1C1600B24862 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F661C6DE17EE1C1600B24862 /* Cocoa.framework */; };
+		F661C6E917EE1C1700B24862 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F661C6E717EE1C1700B24862 /* InfoPlist.strings */; };
+		F661C6EB17EE1C1700B24862 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F661C6EA17EE1C1700B24862 /* main.m */; };
+		F661C6EF17EE1C1700B24862 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F661C6ED17EE1C1700B24862 /* Credits.rtf */; };
+		F661C6F217EE1C1700B24862 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F661C6F117EE1C1700B24862 /* AppDelegate.m */; };
+		F661C6F517EE1C1700B24862 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F661C6F317EE1C1700B24862 /* MainMenu.xib */; };
+		F661C6FD17EE1C1700B24862 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F661C6FC17EE1C1700B24862 /* SenTestingKit.framework */; };
+		F661C6FE17EE1C1700B24862 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F661C6DE17EE1C1600B24862 /* Cocoa.framework */; };
+		F661C70617EE1C1700B24862 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F661C70417EE1C1700B24862 /* InfoPlist.strings */; };
+		F661C70917EE1C1700B24862 /* VimLauncherCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F661C70817EE1C1700B24862 /* VimLauncherCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F661C6FF17EE1C1700B24862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F661C6D317EE1C1600B24862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F661C6DA17EE1C1600B24862;
+			remoteInfo = VimLauncherC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F661C6DB17EE1C1600B24862 /* VimLauncherC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimLauncherC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661C6DE17EE1C1600B24862 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F661C6E117EE1C1600B24862 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F661C6E217EE1C1600B24862 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F661C6E317EE1C1600B24862 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F661C6E617EE1C1700B24862 /* VimLauncherC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimLauncherC-Info.plist"; sourceTree = "<group>"; };
+		F661C6E817EE1C1700B24862 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F661C6EA17EE1C1700B24862 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F661C6EC17EE1C1700B24862 /* VimLauncherC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VimLauncherC-Prefix.pch"; sourceTree = "<group>"; };
+		F661C6EE17EE1C1700B24862 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F661C6F017EE1C1700B24862 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F661C6F117EE1C1700B24862 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F661C6F417EE1C1700B24862 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F661C6FB17EE1C1700B24862 /* VimLauncherCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimLauncherCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661C6FC17EE1C1700B24862 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F661C70317EE1C1700B24862 /* VimLauncherCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimLauncherCTests-Info.plist"; sourceTree = "<group>"; };
+		F661C70517EE1C1700B24862 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F661C70717EE1C1700B24862 /* VimLauncherCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VimLauncherCTests.h; sourceTree = "<group>"; };
+		F661C70817EE1C1700B24862 /* VimLauncherCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VimLauncherCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F661C6D817EE1C1600B24862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661C6DF17EE1C1600B24862 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661C6F717EE1C1700B24862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661C6FD17EE1C1700B24862 /* SenTestingKit.framework in Frameworks */,
+				F661C6FE17EE1C1700B24862 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F661C6D217EE1C1600B24862 = {
+			isa = PBXGroup;
+			children = (
+				F661C6E417EE1C1600B24862 /* VimLauncherC */,
+				F661C70117EE1C1700B24862 /* VimLauncherCTests */,
+				F661C6DD17EE1C1600B24862 /* Frameworks */,
+				F661C6DC17EE1C1600B24862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F661C6DC17EE1C1600B24862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F661C6DB17EE1C1600B24862 /* VimLauncherC.app */,
+				F661C6FB17EE1C1700B24862 /* VimLauncherCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F661C6DD17EE1C1600B24862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F661C6DE17EE1C1600B24862 /* Cocoa.framework */,
+				F661C6FC17EE1C1700B24862 /* SenTestingKit.framework */,
+				F661C6E017EE1C1600B24862 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F661C6E017EE1C1600B24862 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F661C6E117EE1C1600B24862 /* AppKit.framework */,
+				F661C6E217EE1C1600B24862 /* CoreData.framework */,
+				F661C6E317EE1C1600B24862 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F661C6E417EE1C1600B24862 /* VimLauncherC */ = {
+			isa = PBXGroup;
+			children = (
+				F661C6F017EE1C1700B24862 /* AppDelegate.h */,
+				F661C6F117EE1C1700B24862 /* AppDelegate.m */,
+				F661C6F317EE1C1700B24862 /* MainMenu.xib */,
+				F661C6E517EE1C1700B24862 /* Supporting Files */,
+			);
+			path = VimLauncherC;
+			sourceTree = "<group>";
+		};
+		F661C6E517EE1C1700B24862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F661C6E617EE1C1700B24862 /* VimLauncherC-Info.plist */,
+				F661C6E717EE1C1700B24862 /* InfoPlist.strings */,
+				F661C6EA17EE1C1700B24862 /* main.m */,
+				F661C6EC17EE1C1700B24862 /* VimLauncherC-Prefix.pch */,
+				F661C6ED17EE1C1700B24862 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F661C70117EE1C1700B24862 /* VimLauncherCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F661C70717EE1C1700B24862 /* VimLauncherCTests.h */,
+				F661C70817EE1C1700B24862 /* VimLauncherCTests.m */,
+				F661C70217EE1C1700B24862 /* Supporting Files */,
+			);
+			path = VimLauncherCTests;
+			sourceTree = "<group>";
+		};
+		F661C70217EE1C1700B24862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F661C70317EE1C1700B24862 /* VimLauncherCTests-Info.plist */,
+				F661C70417EE1C1700B24862 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F661C6DA17EE1C1600B24862 /* VimLauncherC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661C70C17EE1C1700B24862 /* Build configuration list for PBXNativeTarget "VimLauncherC" */;
+			buildPhases = (
+				F661C6D717EE1C1600B24862 /* Sources */,
+				F661C6D817EE1C1600B24862 /* Frameworks */,
+				F661C6D917EE1C1600B24862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimLauncherC;
+			productName = VimLauncherC;
+			productReference = F661C6DB17EE1C1600B24862 /* VimLauncherC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F661C6FA17EE1C1700B24862 /* VimLauncherCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661C70F17EE1C1700B24862 /* Build configuration list for PBXNativeTarget "VimLauncherCTests" */;
+			buildPhases = (
+				F661C6F617EE1C1700B24862 /* Sources */,
+				F661C6F717EE1C1700B24862 /* Frameworks */,
+				F661C6F817EE1C1700B24862 /* Resources */,
+				F661C6F917EE1C1700B24862 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F661C70017EE1C1700B24862 /* PBXTargetDependency */,
+			);
+			name = VimLauncherCTests;
+			productName = VimLauncherCTests;
+			productReference = F661C6FB17EE1C1700B24862 /* VimLauncherCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F661C6D317EE1C1600B24862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = vcutten;
+			};
+			buildConfigurationList = F661C6D617EE1C1600B24862 /* Build configuration list for PBXProject "VimLauncherC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F661C6D217EE1C1600B24862;
+			productRefGroup = F661C6DC17EE1C1600B24862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F661C6DA17EE1C1600B24862 /* VimLauncherC */,
+				F661C6FA17EE1C1700B24862 /* VimLauncherCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F661C6D917EE1C1600B24862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661C6E917EE1C1700B24862 /* InfoPlist.strings in Resources */,
+				F661C6EF17EE1C1700B24862 /* Credits.rtf in Resources */,
+				F661C6F517EE1C1700B24862 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661C6F817EE1C1700B24862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661C70617EE1C1700B24862 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F661C6F917EE1C1700B24862 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F661C6D717EE1C1600B24862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661C6EB17EE1C1700B24862 /* main.m in Sources */,
+				F661C6F217EE1C1700B24862 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661C6F617EE1C1700B24862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661C70917EE1C1700B24862 /* VimLauncherCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F661C70017EE1C1700B24862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F661C6DA17EE1C1600B24862 /* VimLauncherC */;
+			targetProxy = F661C6FF17EE1C1700B24862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F661C6E717EE1C1700B24862 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661C6E817EE1C1700B24862 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F661C6ED17EE1C1700B24862 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661C6EE17EE1C1700B24862 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F661C6F317EE1C1700B24862 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661C6F417EE1C1700B24862 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F661C70417EE1C1700B24862 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661C70517EE1C1700B24862 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F661C70A17EE1C1700B24862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F661C70B17EE1C1700B24862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F661C70D17EE1C1700B24862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VimLauncherC/VimLauncherC-Prefix.pch";
+				INFOPLIST_FILE = "VimLauncherC/VimLauncherC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F661C70E17EE1C1700B24862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VimLauncherC/VimLauncherC-Prefix.pch";
+				INFOPLIST_FILE = "VimLauncherC/VimLauncherC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F661C71017EE1C1700B24862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VimLauncherC.app/Contents/MacOS/VimLauncherC";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VimLauncherC/VimLauncherC-Prefix.pch";
+				INFOPLIST_FILE = "VimLauncherCTests/VimLauncherCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F661C71117EE1C1700B24862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VimLauncherC.app/Contents/MacOS/VimLauncherC";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VimLauncherC/VimLauncherC-Prefix.pch";
+				INFOPLIST_FILE = "VimLauncherCTests/VimLauncherCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F661C6D617EE1C1600B24862 /* Build configuration list for PBXProject "VimLauncherC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661C70A17EE1C1700B24862 /* Debug */,
+				F661C70B17EE1C1700B24862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F661C70C17EE1C1700B24862 /* Build configuration list for PBXNativeTarget "VimLauncherC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661C70D17EE1C1700B24862 /* Debug */,
+				F661C70E17EE1C1700B24862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F661C70F17EE1C1700B24862 /* Build configuration list for PBXNativeTarget "VimLauncherCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661C71017EE1C1700B24862 /* Debug */,
+				F661C71117EE1C1700B24862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F661C6D317EE1C1600B24862 /* Project object */;
+}
