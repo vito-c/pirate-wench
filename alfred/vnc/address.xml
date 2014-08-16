@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<items>
+	<item uid="vnc" arg="dick-tower.local" autocomplete="dick">
+		<title>dick</title>
+		<subtitle>Connect to destro-tower.local</subtitle>
+		<icon>icon.png</icon>
+	</item>
+	<item uid="vnc" arg="dump-tower.local" autocomplete="dump">
+		<title>dump</title>
+		<subtitle>Connect to destro-tower.local</subtitle>
+		<icon>icon.png</icon>
+	</item>
+	<item uid="vnc" arg="destro-tower.local" autocomplete="destro">
+		<title>destro</title>
+		<subtitle>Connect to destro-tower.local</subtitle>
+		<icon>icon.png</icon>
+	</item>
+</items>

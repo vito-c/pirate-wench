@@ -10,7 +10,7 @@ on run argv
 						tell application "System Events"
 							keystroke "z" using {control down}
 						end tell
-						write text "cd ~/workrepos/farm3/branches/dev/src"
+						write text "cd ~/workrepos/farm3/development/src"
 						write text "/usr/local/bin/vim --servername UNITY --remote-silent " & item 1 of argv & " " & item 2 of argv 
 						write text "fg /usr/local/bin/vim"
 						return
@@ -21,11 +21,12 @@ on run argv
 			-- make a new session
 			-- make new session at the end of sessions)
 			set mysession to (launch session "Default Session") 
+			-- works correctly
 			tell mysession
 				-- set some attributes
 				set name to "UNITY"
 				-- execute a command
-				write text "cd ~/workrepos/farm3/branches/dev/src"
+				write text "cd ~/workrepos/farm3/development/src"
 				write text "/usr/local/bin/vim --servername UNITY --remote-silent " & item 1 of argv & " " & item 2 of argv 
 			end tell
 		end tell

@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 vcutten. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface VimLauncherCTests : SenTestCase
+@interface VimLauncherCTests : XCTestCase
 
 @end
