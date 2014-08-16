@@ -10,12 +10,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VimLauncherC/AppDelegate.m"
-            timestampString = "429862354.348627"
+            timestampString = "429867696.012717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "296"
-            endingLineNumber = "296"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
             landmarkName = "-vimSendArgsCMD:server:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VimLauncherC/AppDelegate.m"
+            timestampString = "429867606.696579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "-vimOpenFile:line:server:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
