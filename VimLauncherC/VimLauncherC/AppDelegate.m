@@ -2,6 +2,9 @@
 #import "iTerm.h"  
 #import <Carbon/Carbon.h>
 
+//TODO: switch to terminal?
+//TODO: if current directory is set no need to CD will shave a second off
+
 typedef struct
 {
     int16_t unused1;      // 0 (not used)
@@ -66,9 +69,15 @@ NSString *const BUNDLE_ID = @"com.googlecode.iterm2";
         }
         //TODO: edge case missing where your current vim is not vim unity and vim unity is running in the bkg
     } else if( [self selectSession:@"UNITY (bash)"] ){
-        [self backgroundProcess];
-        [NSThread sleepForTimeInterval:1];
-        [self runHacks:filename line:lineString];
+        if([self vimUnityRunning:@"UNITY"] ){
+            [self backgroundVimProcess];
+            [NSThread sleepForTimeInterval:1];
+            [self writeToCurrentTerm:@"fg"];
+        } else {
+            [self backgroundProcess];
+            [NSThread sleepForTimeInterval:1];
+            [self runHacks:filename line:lineString];
+         }
     } else {
         //launch new session
         [[iTerm currentTerminal] launchSession:@"Default Session"];
@@ -118,6 +127,7 @@ NSString *const BUNDLE_ID = @"com.googlecode.iterm2";
 {
     NSString *targetDir = [self getPath:filename ];
     [self writeToCurrentTerm:[NSString stringWithFormat:@"cd %@",targetDir]];
+    [NSThread sleepForTimeInterval:0.5];
     if( [@"-1" isEqualToString:lineNumber])
         [self writeToCurrentTerm:[NSString stringWithFormat:@"/usr/local/bin/vim --servername UNITY %@",filename]];
     else
